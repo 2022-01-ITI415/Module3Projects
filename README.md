@@ -1,4 +1,4 @@
-#Module 3 projects
+# Module 3 projects
 In this module you will work on a turn based solitaire card game and then use the framework provided to implement a different solitaire card game from a selected group of possibilities.
 
 
