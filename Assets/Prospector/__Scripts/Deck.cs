@@ -18,8 +18,9 @@ public class Deck : MonoBehaviour {
 	public Sprite cardBackGold;
 	public Sprite cardFront;
 	public Sprite cardFrontGold;
-	
-	
+
+	public bool showFaceUp = false;
+
 	// Prefabs
 	public GameObject prefabSprite;
 	public GameObject prefabCard;
@@ -246,7 +247,7 @@ public class Deck : MonoBehaviour {
 			tSR.sortingOrder = 2;
 			tGO.name = "back";
 			card.back = tGO;
-			card.faceUp = false;
+			card.faceUp = showFaceUp;
 			
 			cards.Add (card);
 		} // for all the Cardnames	
